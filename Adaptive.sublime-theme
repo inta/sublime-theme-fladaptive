@@ -1,0 +1,82 @@
+[
+	/* Side Bar
+	------------------------------------------------------------------------- */
+	// label and background
+	{
+		"class": "tree_row",
+		"attributes": ["selectable", "hover", "!selected"],
+		"layer0.tint": [255, 255, 255, 0.0],
+	},
+	{
+		"class": "sidebar_label",
+		"parents": [{"class": "tree_row", "attributes": ["!hover", "!selected"]}],
+		"fg": ["foreground", 0.5],
+	},
+
+	// hide folder disclosure button
+	/*{
+		"class": "disclosure_button_control",
+		"parents": [{"class": "tree_row"}],
+		"content_margin": 0,
+	},*/
+
+	// folder icons
+	{
+		"class": "icon_folder",
+		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+		"layer0.opacity": 0.4,
+	},
+
+	// file icons
+	{
+		"class": "icon_file_type",
+		"parents": [{"class": "tree_row"}],
+		"layer0.opacity": 0.75,
+	},
+	{
+		"class": "icon_file_type",
+		"parents": [{"class": "tree_row", "attributes": ["hover"]}],
+		"layer0.opacity": 1.0,
+	},
+	{
+		"class": "icon_file_type",
+		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
+		"layer0.opacity": 1.0,
+	},
+
+	/* Tabs
+	------------------------------------------------------------------------- */
+	{
+		"class": "tabset_control",
+		"tab_overlap": -1
+	},
+	{
+		"class": "tab_control",
+		"layer0.opacity": 0.0,
+		"layer1.texture": "",
+		"layer1.opacity": 1.0,
+		"layer2.opacity": 0.0,
+		"layer3.opacity": 0.0,
+		"content_margin": [16, 8, 16, 4],
+	},
+	{
+		"class": "tab_control",
+		"settings": ["show_tab_close_buttons"],
+		"content_margin": [16, 8, 10, 4],
+	},
+	{
+		"class": "tab_label",
+		"parents": [{"class": "tab_control", "attributes": ["hover", "!selected"]}],
+		"fg": ["foreground", 1.0],
+	},
+	{
+		"class": "tab_label",
+		"parents": [{"class": "tab_control", "attributes": ["dirty"], "settings": ["highlight_modified_tabs"]}],
+		"fg": ["accent", 1.0],
+	},
+	{
+		"class": "tab_label",
+		"parents": [{"class": "tab_control", "attributes": ["dirty", "!selected", "!hover"], "settings": ["highlight_modified_tabs"]}],
+		"fg": ["accent", 0.75],
+	},
+]
