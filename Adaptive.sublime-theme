@@ -8,6 +8,13 @@
 		"layer0.tint": [255, 255, 255, 0.0],
 	},
 	{
+		"class": "tree_row",
+		"attributes": ["selected"],
+		"parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
+		"layer0.tint": [255, 255, 255, 0.1],
+		"layer0.opacity": 1.0,
+	},
+	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["!hover", "!selected"]}],
 		"fg": ["foreground", 0.5],
