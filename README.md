@@ -10,11 +10,11 @@ Examples
 
 You can use this theme with any color scheme, these examples are just to get an impression:
 
-![Zenburn](https://github.com/inta/sublime-theme-fladaptive/blob/master/screenshots/zenburn.png)
+![Zenburn](https://raw.githubusercontent.com/inta/sublime-theme-fladaptive/master/screenshots/zenburn.png)
 
-![Sixteen](https://github.com/inta/sublime-theme-fladaptive/blob/master/screenshots/sixteen.png)
+![Sixteen](https://raw.githubusercontent.com/inta/sublime-theme-fladaptive/master/screenshots/sixteen.png)
 
-![Mariana](https://github.com/inta/sublime-theme-fladaptive/blob/master/screenshots/mariana.png)
+![Mariana](https://raw.githubusercontent.com/inta/sublime-theme-fladaptive/master/screenshots/mariana.png)
 
 
 Changes
